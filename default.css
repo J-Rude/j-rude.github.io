@@ -1,0 +1,17 @@
+body{
+    background-color: rgb(179, 237, 250);
+    font-family: 'Inconsolata', monospace;
+}
+
+h1, h6{
+    color: red;
+}
+
+p{
+    text-indent: 30px;
+}
+
+h1{
+    font-size: 50px;
+    font-family: 'Inconsolata', monospace;
+}
