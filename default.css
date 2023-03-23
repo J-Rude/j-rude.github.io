@@ -1,17 +1,27 @@
 body{
-    background-color: rgb(179, 237, 250);
-    font-family: 'Inconsolata', monospace;
-}
-
-h1, h6{
-    color: red;
+    background-color: yellow;
 }
 
 p{
-    text-indent: 30px;
+    font-family: 'Delicious Handrawn', cursive;
+    font-size: 18px;
+    color:blueviolet;
 }
 
-h1{
-    font-size: 50px;
-    font-family: 'Inconsolata', monospace;
+#pic1{
+    position: absolute; top: 75px; left: 450px;
+    background-color: darkgrey;
+    padding: 20px;
+    border-style: groove;
+    border-width: 5px;
+    border-color: red;
+
+}
+
+#bkg{
+    background-color: aqua;
+    position: absolute; top: 5px; left: 5px;
+    height: 750px;
+    width: 950px;
+
 }
