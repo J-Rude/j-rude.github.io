@@ -1,27 +1,24 @@
+h1{
+    color: red;
+    font-size: 18;
+    font-family: 
+}
+
 body{
-    background-color: yellow;
+    background-color: gray;
+}
+
+h5, h3{
+    color: #DFFF00;
+    font-size: 24;
 }
 
 p{
-    font-family: 'Delicious Handrawn', cursive;
-    font-size: 18px;
-    color:blueviolet;
+    text-indent: 20px;
 }
 
-#pic1{
-    position: absolute; top: 75px; left: 450px;
-    background-color: darkgrey;
-    padding: 20px;
-    border-style: groove;
-    border-width: 5px;
-    border-color: red;
-
-}
-
-#bkg{
-    background-color: aqua;
-    position: absolute; top: 5px; left: 5px;
-    height: 750px;
-    width: 950px;
-
+hr{
+    color: blue;
+    height: 10px;
+    width: 50%;
 }
