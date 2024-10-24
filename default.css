@@ -1,24 +1,32 @@
-h1{
-    color: red;
-    font-size: 18;
-    font-family: 
-}
-
 body{
-    background-color: gray;
-}
-
-h5, h3{
-    color: #DFFF00;
-    font-size: 24;
+    background-color: pink;
 }
 
 p{
-    text-indent: 20px;
+    text-indent: 50px;
+    font-weight: bold;
+    //font-family: "Times New Roman", Times, serif;
+    font-family: 'Markazi Text';
+    font-weight: 400;
+
+}
+
+h1{
+    color:cadetblue;
+    font-size: 24;
 }
 
 hr{
-    color: blue;
-    height: 10px;
+    color:blue;
+    height: 20px;
     width: 50%;
+}
+
+#owlImage{
+    position: absolute; top: 200px; left: 500px;
+    padding: 15px;
+    background-color: silver;
+    border-style: solid;
+    border-width: 2px;
+    border-color: darkorange;
 }
