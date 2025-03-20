@@ -2,31 +2,57 @@ body{
     background-color: pink;
 }
 
-p{
-    text-indent: 50px;
-    font-weight: bold;
-    //font-family: "Times New Roman", Times, serif;
-    font-family: 'Markazi Text';
-    font-weight: 400;
 
-}
 
 h1{
-    color:cadetblue;
-    font-size: 24;
+    color: blue;
+    font-size: 16px;
 }
 
 hr{
-    color:blue;
-    height: 20px;
+    color:blueviolet;
+    height: 10px;
     width: 50%;
+    background-color: orange;
 }
 
-#owlImage{
-    position: absolute; top: 200px; left: 500px;
-    padding: 15px;
-    background-color: silver;
-    border-style: solid;
-    border-width: 2px;
-    border-color: darkorange;
+
+a:link{
+    color:deepskyblue
 }
+
+a:visited{
+    color:gray;
+}
+
+p, ul{
+    //font-family: Verdana, Geneva, Tahoma, sans-serif;
+    //font-size: 14px;
+    font-family: "Tektur", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+
+  #size{
+    position: absolute; top: 250px; left: 500px;
+    background-color: silver;
+    padding: 25px;
+    border-style: groove;
+    border-width: 5px;
+    border-color: blue;
+    opacity: 0.5;
+  }
+
+  #main{
+    //background-color: aliceblue;
+    height: 700px;
+    width: 1200px;
+    padding: 25px;
+    position: absolute; top: 50px; left: 50px;
+    background-image: url(graphics/chalamet.png);
+    background-repeat: no-repeat;
+   
+  }
